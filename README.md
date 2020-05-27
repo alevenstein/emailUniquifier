@@ -15,7 +15,7 @@ To run the request, send a POST request to localhost:8080/home using the followi
 
 It will then, per requirements, provide an integer with the unique number of emails using "gmail rules."
 
-I used a simple comparator approach, rather than anything involving a complex loop or messing with a HashMap.
+I used a simple comparator approach, rather than anything involving a complex loop or messing with a HashMap. Core business logic can be found in grails-app/controllers/emailuniquifier/HomeController.groovy
 
 As a bonus, in the offhand chance you're offering extra credit, I also added a couple of unit tests (see the src/test/groovy directory). To run them, type "grails test-app" from the project root directory.
 
