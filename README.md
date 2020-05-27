@@ -7,7 +7,10 @@ To execute, download Grails and then run this application from the command line 
 To run the request, send a POST request to localhost:8080/home using the following JSON format:
 
 {
-    emails: []
+    emails: [
+             "test@gmail.com", 
+             "test2@gmail.com" 
+            ]
 }
 
 It will then, per requirements, provide an integer with the unique number of emails using "gmail rules."
